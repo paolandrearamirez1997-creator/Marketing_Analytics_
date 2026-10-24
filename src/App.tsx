@@ -209,6 +209,8 @@ export default function App() {
             <Module6Lab
               onAwardXP={handleAwardXP}
               onUnlockBadge={handleUnlockBadge}
+              onApplyMatrixToExplorer={setSharedMatrix}
+              onNavigateToModule={setActiveModuleId}
             />
           )}
 

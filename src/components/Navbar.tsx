@@ -65,6 +65,14 @@ export const Navbar: React.FC<NavbarProps> = ({
             Simulador de Umbrales
           </button>
           <button
+            onClick={() => onSelectModule('m6')}
+            className={`transition-colors whitespace-nowrap shrink-0 hover:text-slate-900 ${
+              activeModuleId === 'm6' ? 'text-indigo-600 font-semibold' : ''
+            }`}
+          >
+            Cargar Datos (Lab)
+          </button>
+          <button
             onClick={() => onSelectModule('m5')}
             className={`transition-colors whitespace-nowrap shrink-0 hover:text-slate-900 ${
               activeModuleId === 'm5' ? 'text-indigo-600 font-semibold' : ''
