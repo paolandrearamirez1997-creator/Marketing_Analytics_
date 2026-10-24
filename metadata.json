@@ -1,0 +1,6 @@
+{
+  "name": "MatrizLab - Intérprete de Matrices de Confusión",
+  "description": "Plataforma interactiva y gamificada para dominar la interpretación de matrices de confusión, métricas de clasificación y toma de decisiones de negocio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
